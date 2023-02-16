@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+/*Propiedades del cuerpo y main de la página*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(0, 206, 209);
+}
+main{
+    background-color: white;
+    color: rgb(22, 22, 22);
+    font-size: 14pt;
+    padding: 40px 35px 60px 35px;
+    box-shadow: 10px 10px rgb(0, 165, 167);
+}
+
+
+/*Propiedades de los componentes básicos*/
+.titulo{
+    font-size: 24pt;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.btn{
+    background-color: rgb(250, 128, 114);
+    border: none;
+    color: white;
+    padding: 10px 0px;
+    font-size: 16pt;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.b-green{
+    background-color: green;
+}
+.field{
+    font-size: 13pt;
+    padding: 2px 0px 2px 8px;
+    border: 1px solid rgb(140, 140, 140);
+    border-radius: 2px;
+}
+
+/*Propiedades dentro del div de los calculos*/
+.calculos-box > hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.calculos-box > h2{
+    margin-bottom: 10px;
+}
+.calculos-box > h4{
+    margin-bottom: 10px;
+}
+
+/*Propiedades del display flex*/
+.d-flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-row{
+    flex-direction: row;
+}
+
+/*Propiedades para las fuentes*/
+.fs-20{
+    font-size: 18pt;
+}
+.txt-center{
+    text-align: center;
+}
+.bold {
+    font-weight: bold;
+}
+
+/*Propiedades para el margen del componente*/
+.ml-40{
+    margin-left: 40px;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
